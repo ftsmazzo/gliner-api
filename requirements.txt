@@ -1,4 +1,6 @@
 fastapi>=0.115.0
 uvicorn[standard]>=0.32.0
 pydantic>=2.0.0
+# torch instalado no Dockerfile (CPU wheel)
 gliner2[local]>=0.1.0
+transformers>=4.40.0
